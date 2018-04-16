@@ -60,11 +60,12 @@ def sum_array(array)
  end 
  
  def add_s(array)
-array.collect |word| 
-word == "s"
+array.collect do |word| 
+  if array[1] == "s"
+  end 
+  word + "s"
 end 
-word + "s"
-end  
+end 
 end 
 
 
