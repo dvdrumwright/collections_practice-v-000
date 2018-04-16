@@ -59,10 +59,12 @@ def sum_array(array)
   add_all_interger
  end 
  
- def add_s(array) 
-   
-   
-  end  
+ def add_s(array)
+array.collect |word| 
+word == "s"
+end 
+word + "s"
+end  
 
 
 
